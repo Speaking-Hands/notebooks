@@ -1,3 +1,3 @@
 # speaking-hands
 
-soy dios automatizando
+soy dios automatizando ( Manuel)
