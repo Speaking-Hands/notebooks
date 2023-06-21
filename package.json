@@ -1,0 +1,11 @@
+{
+  "name": "TFM_speaking-hands",
+  "version": "1.0.0",
+  "description": "Descripción del proyecto",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
