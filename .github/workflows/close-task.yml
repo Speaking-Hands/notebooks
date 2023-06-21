@@ -1,0 +1,42 @@
+name: Close ClickUp Task
+on:
+  push:
+    branches:
+      - main  # Cambia esto al nombre de tu rama principal
+
+jobs:
+  closeTask:
+    runs-on: ubuntu-latest  # Selecciona el sistema operativo adecuado
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Extract Task ID
+        id: extract
+        run: |
+          # Obtener el mensaje del commit del contexto de GitHub
+          commit_message=$(git log --format=%B -n 1 ${{ github.sha }})
+          
+          # Extraer el Task ID del mensaje del commit utilizando expresiones regulares
+          task_id=$(echo $commit_message | grep -oP '(?<=\[# )\d+(?=\])')
+          
+          # Pasar el Task ID al paso siguiente
+          echo "::set-output name=task_id::$task_id"
+
+      - name: Close ClickUp task
+        run: |
+          # Obtener el Task ID del paso anterior utilizando el contexto de salida
+          task_id=${{ steps.extract.outputs.task_id }}
+
+          # Verificar si se encontró un Task ID válido
+          if [[ -n $task_id ]]; then
+            # Cerrar la tarea en ClickUp utilizando la API de ClickUp
+            curl --request PUT \
+                 --url "https://api.clickup.com/api/v2/task/$task_id/status" \
+                 --header 'Authorization: pk_61582965_LL0QVUTLQZTEDQL49QKCWSNVKC2XY6UN' \
+                 --header 'Content-Type: application/json' \
+                 --data '{"status": "Closed"}'
+          else
+            echo "No se encontró un Task ID válido en el mensaje del commit."
+          fi
