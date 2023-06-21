@@ -19,7 +19,7 @@ jobs:
           commit_message=$(git log --format=%B -n 1 ${{ github.sha }})
           
           # Extraer el Task ID del mensaje del commit utilizando expresiones regulares
-          task_id=$(echo $commit_message | grep -oP '(?<=\[# )\d+(?=\])')
+          task_id=$(echo $commit_message | grep -oP '(?<=\[#)\d+(?=\])')
           
           # Pasar el Task ID al paso siguiente
           echo "::set-output name=task_id::$task_id"
