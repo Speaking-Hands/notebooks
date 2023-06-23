@@ -29,7 +29,7 @@ soy dios automatizando ( Manuel)
 
 > En caso de no tener `pip`, instalar.
 
-**Para comprobar si se han descargado correctamente, ejecutar el archivo `requirementsCOMPROBACION.ipynb`.**
+**Para comprobar si se han descargado correctamente, ejecutar el archivo `requirementsCOMPROBACION.ipynb`**. Para ello, abrid un nuevo proyecto en la carpeta *SHARED* del onedrive de la UCM, y cambiad el intérprete de python a `SpeakingHands`, que en MAC está situado en `~/anaconda3/envs/SpeakingHands/bin/python`
 
 
 
