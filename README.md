@@ -29,7 +29,7 @@ soy dios automatizando ( Manuel)
 
 > En caso de no tener `pip`, instalar.
 
-** Para comprobar si se han descargado correctamente, ejecutar el archivo `requirementsCOMPROBACION.ipynb`.**
+**Para comprobar si se han descargado correctamente, ejecutar el archivo `requirementsCOMPROBACION.ipynb`.**
 
 
 
