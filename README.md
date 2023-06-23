@@ -22,7 +22,7 @@
 ### Install Libraries
 
 1. En anaconda navigator, clickar en el botón `play` del enviroment `SpeakingHands` y abrir el terminal
-2. En el terminal, escribir `pip install requirements.txt` desde la carpeta del proyecto.
+2. En el terminal, escribir `pip install -r requirements.txt` desde la carpeta del proyecto.
 
 > En caso de no tener `pip`, instalar.
 
