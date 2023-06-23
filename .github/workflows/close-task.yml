@@ -6,7 +6,7 @@ on:
 
 jobs:
   closeTask:
-    runs-on: ubuntu-latest  # Selecciona el sistema operativo adecuado
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
