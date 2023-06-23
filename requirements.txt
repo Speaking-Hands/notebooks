@@ -24,4 +24,6 @@ torch==2.0.1                 # Biblioteca para deep learning
 plotly==5.15.0               # Biblioteca para gráficos interactivos
 
 # para ejecutar en MAC :
-# pip install -r /Users/{usuario}/Library/CloudStorage/OneDrive-UniversidadComplutensedeMadrid\(UCM\)/SHARED/requirements.txt
+# pip install -r
+# desplazar el elemento requirements.txt al terminal
+# enter
