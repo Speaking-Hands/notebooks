@@ -20,6 +20,7 @@ tqdm==4.65.0 		     # Biblioteca para barras de carga
 seaborn==0.12.2		     # Biblioteca para gráficos y visualización de datos
 ydata-profiling==4.3.1	     # Biblioteca para resumen de dataframes
 ipywidgets==8.0.6
+torch==2.0.1 
 
 # para ejecutar en MAC :
 # pip install -r /Users/{usuario}/Library/CloudStorage/OneDrive-UniversidadComplutensedeMadrid\(UCM\)/SHARED/requirements.txt
