@@ -23,7 +23,7 @@ soy dios automatizando ( Manuel)
 * Paso 1. Comprobar si `requirements.txt` e `imagen.jpeg` se encuentran en la ventana *SHARED*  del one drive de la ucm. En caso de no tener el onedrive conectado al pc, descargarlos.
 * Paso 2. En anaconda navigator, clickar en el botón `play` del enviroment `SpeakingHands` y abrir el terminal
 * Paso 3. En el terminal, escribir:
-    * En Mac: `pip install -r /Users/{usuario}/Library/CloudStorage/OneDrive-UniversidadComplutensedeMadrid\(UCM\)/SHARED/requirements.txt`. Reemplazar `{usuario}` por vuestro usuario.
+    * En Mac: si tenemos los archivos en el onedrive: `pip install -r /Users/{usuario}/Library/CloudStorage/OneDrive-UniversidadComplutensedeMadrid\(UCM\)/SHARED/requirements.txt`. Reemplazar `{usuario}` por vuestro usuario. En caso de no tener reemplazar por la ruta correspondiente
     * En Windows: 
 
 
