@@ -1,0 +1,25 @@
+# python==3.9.16
+
+# yo tuve que hacer:
+# brew install freetype
+# pip install --use-pep517 pandas
+
+ipykernel==6.23.2	     # Uso de jupyter notebook
+jupyter==1.0.0               # Entorno interactivo para Python
+matplotlib==3.7.1            # Biblioteca para gráficos y visualización de datos
+numpy==1.23.5                # Biblioteca para cálculos numéricos y manipulación de matrices
+pandas==1.4.0                # Estructuras de datos y análisis de datos en Python
+Pillow==9.5.0                # Biblioteca para manipulación de imágenes
+psutil==5.9.0                # Obtener información del sistema y monitorización
+scikit-learn==1.2.2          # Biblioteca de aprendizaje automático
+scipy==1.12                  # Biblioteca para cálculos científicos y estadísticos
+sympy==1.12                  # Biblioteca para matemáticas simbólicas
+tensorflow==2.12.0           # Biblioteca de aprendizaje automático de Google
+opencv-python==4.7.0.        # Biblioteca para visión por computadora
+tqdm==4.65.0 		     # Biblioteca para barras de carga
+seaborn==0.12.2		     # Biblioteca para gráficos y visualización de datos
+ydata-profiling==4.3.1	     # Biblioteca para resumen de dataframes
+ipywidgets==8.0.6
+
+# para ejecutar en MAC :
+# pip install -r /Users/{usuario}/Library/CloudStorage/OneDrive-UniversidadComplutensedeMadrid\(UCM\)/SHARED/requirements.txt
