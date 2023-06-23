@@ -37,6 +37,10 @@ Para comprobar si se han descargado correctamente, ejecutar el archivo `requirem
 
 ## Useful links
 
+### Review changes in notebook
+
+- [reviewnb](https://app.reviewnb.com/AngelEscudero4/TFM_speaking-hands/)
+
 ### Data
 - [Google - American Sign Language Fingerspelling Recognition
 ](https://www.kaggle.com/competitions/asl-fingerspelling/overview)
