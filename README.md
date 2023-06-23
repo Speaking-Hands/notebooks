@@ -30,11 +30,6 @@
 
 Para comprobar si se han descargado correctamente, ejecutar el archivo `requirements_comprobacion.ipynb`
 
-
-
-  
-
-
 ## Useful links
 
 ### Review changes in notebook
