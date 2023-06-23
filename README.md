@@ -42,6 +42,8 @@ Para comprobar si se han descargado correctamente, ejecutar el archivo `requirem
 ](https://www.kaggle.com/competitions/asl-fingerspelling/overview)
 - [Google - Isolated Sign Language Recognition
 ](https://www.kaggle.com/competitions/asl-signs/overview)
+
+### Notebooks
 - [EDA](https://www.kaggle.com/code/mahakpreetkaurvirdi/american-sign-language-recognition-eda)
 - [ASLFR - Transformer Training + Inference](https://www.kaggle.com/code/markwijkhuizen/aslfr-transformer-training-inference)
 - [(TOP) EDA + ASLFR - Animated visualization](https://www.kaggle.com/code/leonidkulyk/eda-aslfr-animated-visualization)
