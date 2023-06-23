@@ -12,15 +12,16 @@ pandas==2.0.2                # Estructuras de datos y análisis de datos en Pyth
 Pillow==9.5.0                # Biblioteca para manipulación de imágenes
 psutil==5.9.0                # Obtener información del sistema y monitorización
 scikit-learn==1.2.2          # Biblioteca de aprendizaje automático
-scipy==1.10.1                  # Biblioteca para cálculos científicos y estadísticos
+scipy==1.10.1                # Biblioteca para cálculos científicos y estadísticos
 sympy==1.12                  # Biblioteca para matemáticas simbólicas
 tensorflow==2.12.0           # Biblioteca de aprendizaje automático de Google
-opencv-python==4.7.0.72        # Biblioteca para visión por computadora
-tqdm==4.65.0 		     # Biblioteca para barras de carga
-seaborn==0.12.2		     # Biblioteca para gráficos y visualización de datos
+opencv-python==4.7.0.72      # Biblioteca para visión por computadora
+tqdm==4.65.0 		             # Biblioteca para barras de carga
+seaborn==0.12.2		           # Biblioteca para gráficos y visualización de datos
 ydata-profiling==4.3.1	     # Biblioteca para resumen de dataframes
 ipywidgets==8.0.6
-torch==2.0.1 
+torch==2.0.1                 # Biblioteca para deep learning
+plotly==5.15.0               # Biblioteca para gráficos interactivos
 
 # para ejecutar en MAC :
 # pip install -r /Users/{usuario}/Library/CloudStorage/OneDrive-UniversidadComplutensedeMadrid\(UCM\)/SHARED/requirements.txt
