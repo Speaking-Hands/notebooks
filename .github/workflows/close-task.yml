@@ -19,7 +19,7 @@ jobs:
           commit_message=$(git log --format=%B -n 1 ${{ github.sha }})
 
           # Extraer el Task ID del mensaje del commit utilizando expresiones regulares compatibles con Bash
-          if [[ $commit_message =~ \[#([[a-zA-Z0-9]+\] ]]; then
+          if [[ $commit_message =~ \[#[A-Za-z0-9]+\] ]]; then
             task_id=${BASH_REMATCH[1]}
           else
             task_id=""
