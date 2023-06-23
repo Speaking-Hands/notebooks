@@ -46,7 +46,7 @@ Para comprobar si se han descargado correctamente, ejecutar el archivo `requirem
 ](https://www.kaggle.com/competitions/asl-fingerspelling/overview)
 - [Google - Isolated Sign Language Recognition
 ](https://www.kaggle.com/competitions/asl-signs/overview)
-- [ASLFR-Prepocessing Dataset](https://www.kaggle.com/datasets/markwijkhuizen/aslfr-preprocessing-dataset)
+- [ASLFR - Prepocessing Dataset](https://www.kaggle.com/datasets/markwijkhuizen/aslfr-preprocessing-dataset)
 
 ### Notebooks
 - [EDA](https://www.kaggle.com/code/mahakpreetkaurvirdi/american-sign-language-recognition-eda)
