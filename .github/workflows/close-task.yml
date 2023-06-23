@@ -2,7 +2,7 @@ name: Close ClickUp Task
 on:
   push:
     branches:
-      - main  # Cambia esto al nombre de tu rama principal
+      - main
 
 jobs:
   closeTask:
