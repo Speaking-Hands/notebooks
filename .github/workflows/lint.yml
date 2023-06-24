@@ -1,0 +1,35 @@
+name: Lint Jupyter Notebook
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install nbconvert
+        run: pip install nbconvert
+
+      - name: Convert notebook to Python
+        run: jupyter nbconvert --to python notebook.ipynb
+
+      - name: Convert notebook to Markdown
+        run: jupyter nbconvert --to markdown notebook.ipynb
+
+      - name: Run Super-Linter
+        uses: github/super-linter@v3
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
