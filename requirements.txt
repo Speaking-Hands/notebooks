@@ -1,29 +1,20 @@
 # python==3.9.16
 
-# yo tuve que hacer:
-# brew install freetype
-# pip install --use-pep517 pandas
-
-ipykernel==6.23.2	     # Uso de jupyter notebook
-jupyter==1.0.0               # Entorno interactivo para Python
-matplotlib==3.7.1            # Biblioteca para gráficos y visualización de datos
-numpy==1.23.5                # Biblioteca para cálculos numéricos y manipulación de matrices
-pandas==2.0.2                # Estructuras de datos y análisis de datos en Python
-Pillow==9.5.0                # Biblioteca para manipulación de imágenes
-psutil==5.9.0                # Obtener información del sistema y monitorización
-scikit-learn==1.2.2          # Biblioteca de aprendizaje automático
-scipy==1.10.1                # Biblioteca para cálculos científicos y estadísticos
-sympy==1.12                  # Biblioteca para matemáticas simbólicas
-tensorflow==2.12.0           # Biblioteca de aprendizaje automático de Google
-opencv-python==4.7.0.72      # Biblioteca para visión por computadora
-tqdm==4.65.0 		             # Biblioteca para barras de carga
-seaborn==0.12.2		           # Biblioteca para gráficos y visualización de datos
-ydata-profiling==4.3.1	     # Biblioteca para resumen de dataframes
+ipykernel==6.23.2         # Usage of Jupyter Notebook
+jupyter==1.0.0            # Interactive environment for Python
+matplotlib==3.7.1         # Library for plotting and data visualization
+numpy==1.23.5             # Library for numerical calculations and matrix manipulation
+pandas==2.0.2             # Data structures and data analysis in Python
+Pillow==9.5.0             # Library for image manipulation
+psutil==5.9.0             # Obtaining system information and monitoring
+scikit-learn==1.2.2       # Machine learning library
+scipy==1.10.1             # Library for scientific and statistical computations
+sympy==1.12               # Library for symbolic mathematics
+tensorflow==2.12.0        # Google's machine learning library
+opencv-python==4.7.0.72   # Library for computer vision
+tqdm==4.65.0              # Library for progress bars
+seaborn==0.12.2           # Library for plotting and data visualization
+ydata-profiling==4.3.1    # Library for dataframe summarization
 ipywidgets==8.0.6
-torch==2.0.1                 # Biblioteca para deep learning
-plotly==5.15.0               # Biblioteca para gráficos interactivos
-
-# para ejecutar en MAC :
-# pip install -r
-# desplazar el elemento requirements.txt al terminal
-# enter
+torch==2.0.1              # Library for deep learning
+plotly==5.15.0            # Library for interactive plots
