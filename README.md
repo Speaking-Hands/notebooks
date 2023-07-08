@@ -48,3 +48,4 @@ Para comprobar si se han descargado correctamente, ejecutar el archivo `requirem
 - [ASLFR - Transformer Training + Inference](https://www.kaggle.com/code/markwijkhuizen/aslfr-transformer-training-inference)
 - [(TOP) EDA + ASLFR - Animated visualization](https://www.kaggle.com/code/leonidkulyk/eda-aslfr-animated-visualization)
 - [Understanding the Competition | ASL](https://www.kaggle.com/code/ayushs9020/understanding-the-competition-asl)
+- [Create Animations](https://www.kaggle.com/code/ahmedxc4/asl-fingerspelling-recognition-data)
